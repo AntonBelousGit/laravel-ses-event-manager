@@ -1,6 +1,6 @@
 <?php
 
-namespace Akhan619\LaravelSesEventManager\App;
+namespace AntonBelousGit\LaravelSesEventManager\App;
 
 use Illuminate\Contracts\Mail\Mailable as MailableContract;
 use Illuminate\Mail\PendingMail;

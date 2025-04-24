@@ -1,8 +1,8 @@
 <?php
 
-namespace Akhan619\LaravelSesEventManager\Tests\Feature\Controller;
+namespace AntonBelousGit\LaravelSesEventManager\Tests\Feature\Controller;
 
-use Akhan619\LaravelSesEventManager\Tests\FeatureTestCase;
+use AntonBelousGit\LaravelSesEventManager\Tests\FeatureTestCase;
 use Illuminate\Http\Client\Request;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Http;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Akhan619\LaravelSesEventManager\Mocking;
+namespace AntonBelousGit\LaravelSesEventManager\Mocking;
 
-use Akhan619\LaravelSesEventManager\LaravelSesEventManagerServiceProvider;
+use AntonBelousGit\LaravelSesEventManager\LaravelSesEventManagerServiceProvider;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;

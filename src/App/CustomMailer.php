@@ -1,8 +1,8 @@
 <?php
 
-namespace Akhan619\LaravelSesEventManager\App;
+namespace AntonBelousGit\LaravelSesEventManager\App;
 
-use Akhan619\LaravelSesEventManager\Exceptions\MultipleRecipientsInEmailException;
+use AntonBelousGit\LaravelSesEventManager\Exceptions\MultipleRecipientsInEmailException;
 use Illuminate\Contracts\Mail\Mailable as MailableContract;
 use Illuminate\Mail\Mailer;
 use Illuminate\Mail\SentMessage;

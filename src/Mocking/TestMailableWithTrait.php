@@ -1,9 +1,9 @@
 <?php
 
-namespace Akhan619\LaravelSesEventManager\Mocking;
+namespace AntonBelousGit\LaravelSesEventManager\Mocking;
 
-use Akhan619\LaravelSesEventManager\LaravelSesEventManagerServiceProvider;
-use Akhan619\LaravelSesEventManager\Traits\QueueForCustomMailer;
+use AntonBelousGit\LaravelSesEventManager\LaravelSesEventManagerServiceProvider;
+use AntonBelousGit\LaravelSesEventManager\Traits\QueueForCustomMailer;
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;

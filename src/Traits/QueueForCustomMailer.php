@@ -1,6 +1,6 @@
 <?php
 
-namespace Akhan619\LaravelSesEventManager\Traits;
+namespace AntonBelousGit\LaravelSesEventManager\Traits;
 
 use Illuminate\Container\Container;
 use Illuminate\Contracts\Mail\Factory as MailFactory;

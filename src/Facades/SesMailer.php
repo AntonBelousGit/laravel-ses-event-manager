@@ -1,9 +1,9 @@
 <?php
 
-namespace Akhan619\LaravelSesEventManager\Facades;
+namespace AntonBelousGit\LaravelSesEventManager\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Illuminate\Support\Testing\Fakes\MailFake;
+use Illuminate\Support\Facades\Mail;
 
 class SesMailer extends Facade
 {
@@ -17,7 +17,7 @@ class SesMailer extends Facade
         // We use the default mail fake provided by laravel since we don't really have
         // any specific functionality in our SesMailer that we need to fake. And the
         // default works since there are no mail drivers associated with faking.
-        static::swap($fake = new MailFake());
+        static::swap($fake = Mail::fake());
 
         return $fake;
     }

@@ -1,9 +1,9 @@
 <?php
 
-namespace Akhan619\LaravelSesEventManager\Tests\Feature\Implementations;
+namespace AntonBelousGit\LaravelSesEventManager\Tests\Feature\Implementations;
 
-use Akhan619\LaravelSesEventManager\App\Models\Email;
-use Akhan619\LaravelSesEventManager\Tests\FeatureTestCase;
+use AntonBelousGit\LaravelSesEventManager\App\Models\Email;
+use AntonBelousGit\LaravelSesEventManager\Tests\FeatureTestCase;
 use Illuminate\Routing\Router;
 
 class EventManagerRenderingFailureTest extends FeatureTestCase

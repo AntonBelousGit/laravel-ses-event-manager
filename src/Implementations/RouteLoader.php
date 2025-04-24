@@ -1,9 +1,9 @@
 <?php
 
-namespace Akhan619\LaravelSesEventManager\Implementations;
+namespace AntonBelousGit\LaravelSesEventManager\Implementations;
 
-use Akhan619\LaravelSesEventManager\Contracts\BaseControllerContract;
-use Akhan619\LaravelSesEventManager\Contracts\RouteLoaderContract;
+use AntonBelousGit\LaravelSesEventManager\Contracts\BaseControllerContract;
+use AntonBelousGit\LaravelSesEventManager\Contracts\RouteLoaderContract;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Str;

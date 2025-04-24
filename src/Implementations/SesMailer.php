@@ -1,13 +1,13 @@
 <?php
 
-namespace Akhan619\LaravelSesEventManager\Implementations;
+namespace AntonBelousGit\LaravelSesEventManager\Implementations;
 
-use Akhan619\LaravelSesEventManager\App\CustomMailer;
-use Akhan619\LaravelSesEventManager\App\CustomPendingMail;
-use Akhan619\LaravelSesEventManager\App\Models\Email;
-use Akhan619\LaravelSesEventManager\Contracts\ModelResolverContract;
-use Akhan619\LaravelSesEventManager\Contracts\SesMailerContract;
-use Akhan619\LaravelSesEventManager\LaravelSesEventManagerServiceProvider;
+use AntonBelousGit\LaravelSesEventManager\App\CustomMailer;
+use AntonBelousGit\LaravelSesEventManager\App\CustomPendingMail;
+use AntonBelousGit\LaravelSesEventManager\App\Models\Email;
+use AntonBelousGit\LaravelSesEventManager\Contracts\ModelResolverContract;
+use AntonBelousGit\LaravelSesEventManager\Contracts\SesMailerContract;
+use AntonBelousGit\LaravelSesEventManager\LaravelSesEventManagerServiceProvider;
 use Aws\Ses\SesClient;
 use Illuminate\Mail\SentMessage;
 use Illuminate\Mail\Transport\SesTransport;

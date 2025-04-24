@@ -1,9 +1,9 @@
 <?php
 
-namespace Akhan619\LaravelSesEventManager\Tests\Unit\Routing;
+namespace AntonBelousGit\LaravelSesEventManager\Tests\Unit\Routing;
 
-use Akhan619\LaravelSesEventManager\Implementations\RouteLoader;
-use Akhan619\LaravelSesEventManager\Tests\UnitTestCase;
+use AntonBelousGit\LaravelSesEventManager\Implementations\RouteLoader;
+use AntonBelousGit\LaravelSesEventManager\Tests\UnitTestCase;
 use Illuminate\Routing\Router;
 
 class RouteTest extends UnitTestCase

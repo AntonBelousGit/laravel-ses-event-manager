@@ -1,16 +1,16 @@
 <?php
 
-namespace Akhan619\LaravelSesEventManager\Tests\Unit\Mail;
+namespace AntonBelousGit\LaravelSesEventManager\Tests\Unit\Mail;
 
-use Akhan619\LaravelSesEventManager\App\CustomMailer;
-use Akhan619\LaravelSesEventManager\Exceptions\MultipleRecipientsInEmailException;
-use Akhan619\LaravelSesEventManager\Implementations\SesMailer;
-use Akhan619\LaravelSesEventManager\Mocking\TestMailable;
-use Akhan619\LaravelSesEventManager\Mocking\TestMailableWithMultipleRecipients;
-use Akhan619\LaravelSesEventManager\Mocking\TestMailableWithRecipient;
-use Akhan619\LaravelSesEventManager\Mocking\TestMailableWithTrait;
-use Akhan619\LaravelSesEventManager\Mocking\TestQueuedMailable;
-use Akhan619\LaravelSesEventManager\Tests\UnitTestCase;
+use AntonBelousGit\LaravelSesEventManager\App\CustomMailer;
+use AntonBelousGit\LaravelSesEventManager\Exceptions\MultipleRecipientsInEmailException;
+use AntonBelousGit\LaravelSesEventManager\Implementations\SesMailer;
+use AntonBelousGit\LaravelSesEventManager\Mocking\TestMailable;
+use AntonBelousGit\LaravelSesEventManager\Mocking\TestMailableWithMultipleRecipients;
+use AntonBelousGit\LaravelSesEventManager\Mocking\TestMailableWithRecipient;
+use AntonBelousGit\LaravelSesEventManager\Mocking\TestMailableWithTrait;
+use AntonBelousGit\LaravelSesEventManager\Mocking\TestQueuedMailable;
+use AntonBelousGit\LaravelSesEventManager\Tests\UnitTestCase;
 use Illuminate\Mail\SendQueuedMailable;
 use Illuminate\Mail\SentMessage;
 use Illuminate\Support\Facades\Queue;

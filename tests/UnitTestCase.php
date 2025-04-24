@@ -1,8 +1,8 @@
 <?php
 
-namespace Akhan619\LaravelSesEventManager\Tests;
+namespace AntonBelousGit\LaravelSesEventManager\Tests;
 
-use Akhan619\LaravelSesEventManager\LaravelSesEventManagerServiceProvider;
+use AntonBelousGit\LaravelSesEventManager\LaravelSesEventManagerServiceProvider;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 
 abstract class UnitTestCase extends BaseTestCase

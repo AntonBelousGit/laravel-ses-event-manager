@@ -1,9 +1,9 @@
 <?php
 
-namespace Akhan619\LaravelSesEventManager\Tests\Unit\Implementations;
+namespace AntonBelousGit\LaravelSesEventManager\Tests\Unit\Implementations;
 
-use Akhan619\LaravelSesEventManager\Contracts\ModelResolverContract;
-use Akhan619\LaravelSesEventManager\Tests\UnitTestCase;
+use AntonBelousGit\LaravelSesEventManager\Contracts\ModelResolverContract;
+use AntonBelousGit\LaravelSesEventManager\Tests\UnitTestCase;
 
 class ModelResolverTest extends UnitTestCase
 {

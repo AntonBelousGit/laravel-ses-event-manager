@@ -1,8 +1,8 @@
 <?php
 
-namespace Akhan619\LaravelSesEventManager\Database\Factories;
+namespace AntonBelousGit\LaravelSesEventManager\Database\Factories;
 
-use Akhan619\LaravelSesEventManager\App\Models\EmailComplaint;
+use AntonBelousGit\LaravelSesEventManager\App\Models\EmailComplaint;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**

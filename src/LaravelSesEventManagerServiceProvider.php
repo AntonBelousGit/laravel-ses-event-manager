@@ -1,16 +1,16 @@
 <?php
 
-namespace Akhan619\LaravelSesEventManager;
+namespace AntonBelousGit\LaravelSesEventManager;
 
-use Akhan619\LaravelSesEventManager\App\Http\Controllers\BaseController;
-use Akhan619\LaravelSesEventManager\Contracts\BaseControllerContract;
-use Akhan619\LaravelSesEventManager\Contracts\EventManagerContract;
-use Akhan619\LaravelSesEventManager\Contracts\ModelResolverContract;
-use Akhan619\LaravelSesEventManager\Contracts\RouteLoaderContract;
-use Akhan619\LaravelSesEventManager\Implementations\EventManager;
-use Akhan619\LaravelSesEventManager\Implementations\ModelResolver;
-use Akhan619\LaravelSesEventManager\Implementations\RouteLoader;
-use Akhan619\LaravelSesEventManager\Implementations\SesMailer;
+use AntonBelousGit\LaravelSesEventManager\App\Http\Controllers\BaseController;
+use AntonBelousGit\LaravelSesEventManager\Contracts\BaseControllerContract;
+use AntonBelousGit\LaravelSesEventManager\Contracts\EventManagerContract;
+use AntonBelousGit\LaravelSesEventManager\Contracts\ModelResolverContract;
+use AntonBelousGit\LaravelSesEventManager\Contracts\RouteLoaderContract;
+use AntonBelousGit\LaravelSesEventManager\Implementations\EventManager;
+use AntonBelousGit\LaravelSesEventManager\Implementations\ModelResolver;
+use AntonBelousGit\LaravelSesEventManager\Implementations\RouteLoader;
+use AntonBelousGit\LaravelSesEventManager\Implementations\SesMailer;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;

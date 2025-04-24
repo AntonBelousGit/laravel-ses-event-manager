@@ -1,8 +1,8 @@
 <?php
 
-namespace Akhan619\LaravelSesEventManager\App\Models;
+namespace AntonBelousGit\LaravelSesEventManager\App\Models;
 
-use Akhan619\LaravelSesEventManager\Database\Factories\EmailSendFactory;
+use AntonBelousGit\LaravelSesEventManager\Database\Factories\EmailSendFactory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 

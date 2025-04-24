@@ -1,10 +1,10 @@
 <?php
 
-namespace Akhan619\LaravelSesEventManager\Implementations;
+namespace AntonBelousGit\LaravelSesEventManager\Implementations;
 
-use Akhan619\LaravelSesEventManager\App\Models\Email;
-use Akhan619\LaravelSesEventManager\Contracts\EventManagerContract;
-use Akhan619\LaravelSesEventManager\Contracts\ModelResolverContract;
+use AntonBelousGit\LaravelSesEventManager\App\Models\Email;
+use AntonBelousGit\LaravelSesEventManager\Contracts\EventManagerContract;
+use AntonBelousGit\LaravelSesEventManager\Contracts\ModelResolverContract;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;

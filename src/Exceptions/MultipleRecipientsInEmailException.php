@@ -1,6 +1,6 @@
 <?php
 
-namespace Akhan619\LaravelSesEventManager\Exceptions;
+namespace AntonBelousGit\LaravelSesEventManager\Exceptions;
 
 use Exception;
 

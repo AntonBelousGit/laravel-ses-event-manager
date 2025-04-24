@@ -1,10 +1,10 @@
 <?php
 
-namespace Akhan619\LaravelSesEventManager\App\Http\Controllers;
+namespace AntonBelousGit\LaravelSesEventManager\App\Http\Controllers;
 
-use Akhan619\LaravelSesEventManager\Contracts\BaseControllerContract;
-use Akhan619\LaravelSesEventManager\Contracts\EventManagerContract;
-use Akhan619\LaravelSesEventManager\Contracts\RouteLoaderContract;
+use AntonBelousGit\LaravelSesEventManager\Contracts\BaseControllerContract;
+use AntonBelousGit\LaravelSesEventManager\Contracts\EventManagerContract;
+use AntonBelousGit\LaravelSesEventManager\Contracts\RouteLoaderContract;
 use Aws\Sns\Exception\InvalidSnsMessageException;
 use Aws\Sns\Message;
 use Aws\Sns\MessageValidator;

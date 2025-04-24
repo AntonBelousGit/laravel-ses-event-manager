@@ -1,14 +1,14 @@
 {
-	"name": "akhan619/laravel-ses-event-manager",
+	"name": "antonbelousgit/laravel-ses-event-manager",
 	"description": "A Laravel package to manage incoming SES email events with http/s webhooks.",
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Aman Khan",
-			"email": "amankhan.mailbox@gmail.com"
+			"name": "Anton Belous",
+			"email": "your.email@example.com"
 		}
 	],
-	"homepage": "https://github.com/akhan619/laravel-ses-event-manager",
+	"homepage": "https://github.com/AntonBelousGit/laravel-ses-event-manager",
 	"keywords": [
 		"Laravel",
 		"SES",
@@ -25,10 +25,10 @@
 	],
 	"require": {
 		"php": "^8.0",
-		"illuminate/support": "^9.0|^10.0",
+		"illuminate/support": "^9.0|^10.0|^11.0",
 		"aws/aws-php-sns-message-validator": "^1.6",
 		"aws/aws-sdk-php": "^3.218",
-		"symfony/psr-http-message-bridge": "^2.0",
+		"symfony/psr-http-message-bridge": "^2.0|^7.0",
 		"nyholm/psr7": "^1.0"
 	},
 	"require-dev": {
@@ -39,13 +39,13 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Akhan619\\LaravelSesEventManager\\": "src/"
+			"AntonBelousGit\\LaravelSesEventManager\\": "src/"
 		}
 	},
 	"autoload-dev": {
 		"psr-4": {
-			"Akhan619\\LaravelSesEventManager\\Tests\\": "tests",
-			"Akhan619\\LaravelSesEventManager\\Database\\Factories\\": "database/factories/"
+			"AntonBelousGit\\LaravelSesEventManager\\Tests\\": "tests",
+			"AntonBelousGit\\LaravelSesEventManager\\Database\\Factories\\": "database/factories/"
 		}
 	},
 	"scripts": {
@@ -57,10 +57,10 @@
 	"extra": {
 		"laravel": {
 			"providers": [
-				"Akhan619\\LaravelSesEventManager\\LaravelSesEventManagerServiceProvider"
+				"AntonBelousGit\\LaravelSesEventManager\\LaravelSesEventManagerServiceProvider"
 			],
 			"aliases": {
-				"SesMailer": "Akhan619\\LaravelSesEventManager\\Facades\\SesMailer"
+				"SesMailer": "AntonBelousGit\\LaravelSesEventManager\\Facades\\SesMailer"
 			}
 		}
 	}

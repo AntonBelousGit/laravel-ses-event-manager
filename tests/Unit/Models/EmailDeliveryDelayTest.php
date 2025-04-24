@@ -1,10 +1,10 @@
 <?php
 
-namespace Akhan619\LaravelSesEventManager\Tests\Unit\Models;
+namespace AntonBelousGit\LaravelSesEventManager\Tests\Unit\Models;
 
-use Akhan619\LaravelSesEventManager\App\Models\Email;
-use Akhan619\LaravelSesEventManager\App\Models\EmailDeliveryDelay;
-use Akhan619\LaravelSesEventManager\Tests\UnitTestCase;
+use AntonBelousGit\LaravelSesEventManager\App\Models\Email;
+use AntonBelousGit\LaravelSesEventManager\App\Models\EmailDeliveryDelay;
+use AntonBelousGit\LaravelSesEventManager\Tests\UnitTestCase;
 use Illuminate\Support\Facades\Schema;
 
 class EmailDeliveryDelayTest extends UnitTestCase

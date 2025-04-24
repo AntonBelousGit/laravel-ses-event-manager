@@ -1,8 +1,8 @@
 <?php
 
-namespace Akhan619\LaravelSesEventManager\Implementations;
+namespace AntonBelousGit\LaravelSesEventManager\Implementations;
 
-use Akhan619\LaravelSesEventManager\Contracts\ModelResolverContract;
+use AntonBelousGit\LaravelSesEventManager\Contracts\ModelResolverContract;
 use Closure;
 
 class ModelResolver implements ModelResolverContract

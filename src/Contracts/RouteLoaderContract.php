@@ -1,6 +1,6 @@
 <?php
 
-namespace Akhan619\LaravelSesEventManager\Contracts;
+namespace AntonBelousGit\LaravelSesEventManager\Contracts;
 
 interface RouteLoaderContract
 {
